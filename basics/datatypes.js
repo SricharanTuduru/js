@@ -14,3 +14,35 @@ let isloggedin = false //boolean
 //symbol =>unique
 
 //object 
+
+
+
+//stack, heap
+
+// stack(Primitive), Heap(Non-primitive)
+
+let myyt = "sricharan"
+let myyt2 = myyt
+
+console.log(myyt)
+console.log(myyt2)
+
+myyt2 = "charan "
+console.log(myyt2)
+console.log(myyt)
+
+
+let userone = {
+    "name": "sricharan",
+    "age": 22
+}
+let usertwo = userone
+
+console.log(usertwo);
+console.log(userone);
+
+usertwo.name = "charan"
+
+console.log(userone)
+console.log(usertwo)
+
